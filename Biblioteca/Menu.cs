@@ -44,5 +44,11 @@ namespace Biblioteca
             form.ShowDialog();
 
         }
+
+        private void cadastrarToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            CadLivro form = new CadLivro();
+            form.ShowDialog();
+        }
     }
 }
