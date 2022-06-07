@@ -48,11 +48,11 @@
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.sairToolStripMenuItem,
             this.alunoToolStripMenuItem,
             this.livrosToolStripMenuItem,
             this.empretimosToolStripMenuItem,
-            this.aDMToolStripMenuItem,
-            this.sairToolStripMenuItem});
+            this.aDMToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(665, 24);
@@ -80,8 +80,9 @@
             // exibirToolStripMenuItem
             // 
             this.exibirToolStripMenuItem.Name = "exibirToolStripMenuItem";
-            this.exibirToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.exibirToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.exibirToolStripMenuItem.Text = "Exibir";
+            this.exibirToolStripMenuItem.Click += new System.EventHandler(this.exibirToolStripMenuItem_Click);
             // 
             // livrosToolStripMenuItem
             // 

@@ -34,7 +34,9 @@ namespace Biblioteca
 
         private void cadastrarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            CadAluno calu = new CadAluno();
+            this.Dispose();
+            calu.ShowDialog();
         }
 
         private void sairToolStripMenuItem_Click(object sender, EventArgs e)
@@ -43,6 +45,13 @@ namespace Biblioteca
             this.Dispose();
             form.ShowDialog();
 
+        }
+
+        private void exibirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Exibiraluno ealu = new Exibiraluno();
+            this.Dispose();
+            ealu.ShowDialog();
         }
     }
 }

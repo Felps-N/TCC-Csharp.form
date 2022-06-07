@@ -37,6 +37,7 @@ namespace Biblioteca
             this.Hide();
             Menu menu = new Menu();
             menu.ShowDialog();
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
