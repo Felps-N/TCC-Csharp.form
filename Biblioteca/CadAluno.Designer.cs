@@ -53,6 +53,7 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.voltaralu2});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
@@ -70,25 +71,29 @@
             // 
             // btncadastraraluno
             // 
+            this.btncadastraraluno.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btncadastraraluno.ForeColor = System.Drawing.SystemColors.MenuText;
             this.btncadastraraluno.Location = new System.Drawing.Point(240, 357);
             this.btncadastraraluno.Name = "btncadastraraluno";
             this.btncadastraraluno.Size = new System.Drawing.Size(75, 23);
             this.btncadastraraluno.TabIndex = 77;
             this.btncadastraraluno.Text = "Cadastrar";
-            this.btncadastraraluno.UseVisualStyleBackColor = true;
+            this.btncadastraraluno.UseVisualStyleBackColor = false;
             // 
             // lbltituloaluno
             // 
             this.lbltituloaluno.AutoSize = true;
-            this.lbltituloaluno.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
-            this.lbltituloaluno.Location = new System.Drawing.Point(225, 37);
+            this.lbltituloaluno.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.3F);
+            this.lbltituloaluno.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.lbltituloaluno.Location = new System.Drawing.Point(205, 32);
             this.lbltituloaluno.Name = "lbltituloaluno";
-            this.lbltituloaluno.Size = new System.Drawing.Size(124, 20);
+            this.lbltituloaluno.Size = new System.Drawing.Size(162, 26);
             this.lbltituloaluno.TabIndex = 76;
             this.lbltituloaluno.Text = "Cadastro Aluno";
             // 
             // txtemail
             // 
+            this.txtemail.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.txtemail.Location = new System.Drawing.Point(253, 250);
             this.txtemail.Name = "txtemail";
             this.txtemail.Size = new System.Drawing.Size(100, 20);
@@ -96,6 +101,7 @@
             // 
             // txttelefone
             // 
+            this.txttelefone.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.txttelefone.Location = new System.Drawing.Point(253, 318);
             this.txttelefone.Name = "txttelefone";
             this.txttelefone.Size = new System.Drawing.Size(100, 20);
@@ -104,6 +110,7 @@
             // lbltelefone
             // 
             this.lbltelefone.AutoSize = true;
+            this.lbltelefone.ForeColor = System.Drawing.SystemColors.WindowText;
             this.lbltelefone.Location = new System.Drawing.Point(195, 321);
             this.lbltelefone.Name = "lbltelefone";
             this.lbltelefone.Size = new System.Drawing.Size(52, 13);
@@ -113,6 +120,7 @@
             // lblcelular
             // 
             this.lblcelular.AutoSize = true;
+            this.lblcelular.ForeColor = System.Drawing.SystemColors.WindowText;
             this.lblcelular.Location = new System.Drawing.Point(205, 287);
             this.lblcelular.Name = "lblcelular";
             this.lblcelular.Size = new System.Drawing.Size(42, 13);
@@ -121,6 +129,7 @@
             // 
             // txtcelular
             // 
+            this.txtcelular.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.txtcelular.Location = new System.Drawing.Point(253, 284);
             this.txtcelular.Name = "txtcelular";
             this.txtcelular.Size = new System.Drawing.Size(100, 20);
@@ -129,6 +138,7 @@
             // lblemail
             // 
             this.lblemail.AutoSize = true;
+            this.lblemail.ForeColor = System.Drawing.SystemColors.WindowText;
             this.lblemail.Location = new System.Drawing.Point(212, 253);
             this.lblemail.Name = "lblemail";
             this.lblemail.Size = new System.Drawing.Size(35, 13);
@@ -137,6 +147,7 @@
             // 
             // txtperiodo
             // 
+            this.txtperiodo.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.txtperiodo.Location = new System.Drawing.Point(254, 217);
             this.txtperiodo.Name = "txtperiodo";
             this.txtperiodo.Size = new System.Drawing.Size(100, 20);
@@ -145,6 +156,7 @@
             // lblperiodo
             // 
             this.lblperiodo.AutoSize = true;
+            this.lblperiodo.ForeColor = System.Drawing.SystemColors.WindowText;
             this.lblperiodo.Location = new System.Drawing.Point(202, 220);
             this.lblperiodo.Name = "lblperiodo";
             this.lblperiodo.Size = new System.Drawing.Size(46, 13);
@@ -153,6 +165,7 @@
             // 
             // txtcurso
             // 
+            this.txtcurso.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.txtcurso.Location = new System.Drawing.Point(254, 181);
             this.txtcurso.Name = "txtcurso";
             this.txtcurso.Size = new System.Drawing.Size(100, 20);
@@ -161,6 +174,7 @@
             // lblcurso
             // 
             this.lblcurso.AutoSize = true;
+            this.lblcurso.ForeColor = System.Drawing.SystemColors.WindowText;
             this.lblcurso.Location = new System.Drawing.Point(211, 184);
             this.lblcurso.Name = "lblcurso";
             this.lblcurso.Size = new System.Drawing.Size(37, 13);
@@ -169,6 +183,7 @@
             // 
             // txtserie
             // 
+            this.txtserie.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.txtserie.Location = new System.Drawing.Point(254, 147);
             this.txtserie.Name = "txtserie";
             this.txtserie.Size = new System.Drawing.Size(100, 20);
@@ -177,6 +192,7 @@
             // lblserie
             // 
             this.lblserie.AutoSize = true;
+            this.lblserie.ForeColor = System.Drawing.SystemColors.WindowText;
             this.lblserie.Location = new System.Drawing.Point(214, 154);
             this.lblserie.Name = "lblserie";
             this.lblserie.Size = new System.Drawing.Size(34, 13);
@@ -185,6 +201,7 @@
             // 
             // txtRM
             // 
+            this.txtRM.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.txtRM.Location = new System.Drawing.Point(253, 75);
             this.txtRM.Name = "txtRM";
             this.txtRM.Size = new System.Drawing.Size(100, 20);
@@ -193,6 +210,7 @@
             // lblRM
             // 
             this.lblRM.AutoSize = true;
+            this.lblRM.ForeColor = System.Drawing.SystemColors.WindowText;
             this.lblRM.Location = new System.Drawing.Point(220, 78);
             this.lblRM.Name = "lblRM";
             this.lblRM.Size = new System.Drawing.Size(27, 13);
@@ -201,6 +219,7 @@
             // 
             // txtname
             // 
+            this.txtname.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.txtname.Location = new System.Drawing.Point(253, 112);
             this.txtname.Name = "txtname";
             this.txtname.Size = new System.Drawing.Size(100, 20);
@@ -209,6 +228,7 @@
             // lblname
             // 
             this.lblname.AutoSize = true;
+            this.lblname.ForeColor = System.Drawing.SystemColors.WindowText;
             this.lblname.Location = new System.Drawing.Point(209, 115);
             this.lblname.Name = "lblname";
             this.lblname.Size = new System.Drawing.Size(38, 13);
@@ -219,6 +239,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(549, 394);
             this.Controls.Add(this.btncadastraraluno);
             this.Controls.Add(this.lbltituloaluno);

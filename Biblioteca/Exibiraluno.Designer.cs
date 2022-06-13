@@ -36,7 +36,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.lblaluno = new System.Windows.Forms.Label();
             this.txtpesquisaraluno = new System.Windows.Forms.TextBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.voltaralu1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -80,12 +79,14 @@
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
+            this.lbltituloaluno = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label1.Location = new System.Drawing.Point(328, 150);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(52, 13);
@@ -95,6 +96,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label2.Location = new System.Drawing.Point(205, 150);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(42, 13);
@@ -104,6 +106,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label3.Location = new System.Drawing.Point(45, 150);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(35, 13);
@@ -113,6 +116,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label4.Location = new System.Drawing.Point(459, 122);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(46, 13);
@@ -122,6 +126,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label5.Location = new System.Drawing.Point(361, 122);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(37, 13);
@@ -131,6 +136,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label6.Location = new System.Drawing.Point(294, 122);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(34, 13);
@@ -140,6 +146,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label7.Location = new System.Drawing.Point(21, 122);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(27, 13);
@@ -149,31 +156,26 @@
             // label8
             // 
             this.label8.AutoSize = true;
+            this.label8.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label8.Location = new System.Drawing.Point(101, 122);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(38, 13);
             this.label8.TabIndex = 82;
             this.label8.Text = "Nome:";
             // 
-            // lblaluno
-            // 
-            this.lblaluno.AutoSize = true;
-            this.lblaluno.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
-            this.lblaluno.Location = new System.Drawing.Point(262, 40);
-            this.lblaluno.Name = "lblaluno";
-            this.lblaluno.Size = new System.Drawing.Size(60, 20);
-            this.lblaluno.TabIndex = 81;
-            this.lblaluno.Text = "Alunos";
-            // 
             // txtpesquisaraluno
             // 
-            this.txtpesquisaraluno.Location = new System.Drawing.Point(208, 73);
+            this.txtpesquisaraluno.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.txtpesquisaraluno.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.txtpesquisaraluno.Location = new System.Drawing.Point(210, 76);
             this.txtpesquisaraluno.Name = "txtpesquisaraluno";
-            this.txtpesquisaraluno.Size = new System.Drawing.Size(167, 20);
+            this.txtpesquisaraluno.Size = new System.Drawing.Size(167, 23);
             this.txtpesquisaraluno.TabIndex = 80;
+            this.txtpesquisaraluno.Text = "Digite o Nome do Aluno";
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.voltaralu1});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
@@ -369,6 +371,7 @@
             // label25
             // 
             this.label25.AutoSize = true;
+            this.label25.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label25.Location = new System.Drawing.Point(328, 237);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(52, 13);
@@ -378,6 +381,7 @@
             // label26
             // 
             this.label26.AutoSize = true;
+            this.label26.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label26.Location = new System.Drawing.Point(205, 237);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(42, 13);
@@ -387,6 +391,7 @@
             // label27
             // 
             this.label27.AutoSize = true;
+            this.label27.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label27.Location = new System.Drawing.Point(45, 237);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(35, 13);
@@ -396,6 +401,7 @@
             // label28
             // 
             this.label28.AutoSize = true;
+            this.label28.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label28.Location = new System.Drawing.Point(459, 209);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(46, 13);
@@ -405,6 +411,7 @@
             // label29
             // 
             this.label29.AutoSize = true;
+            this.label29.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label29.Location = new System.Drawing.Point(361, 209);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(37, 13);
@@ -414,6 +421,7 @@
             // label30
             // 
             this.label30.AutoSize = true;
+            this.label30.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label30.Location = new System.Drawing.Point(294, 209);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(34, 13);
@@ -423,6 +431,7 @@
             // label31
             // 
             this.label31.AutoSize = true;
+            this.label31.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label31.Location = new System.Drawing.Point(21, 209);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(27, 13);
@@ -432,6 +441,7 @@
             // label32
             // 
             this.label32.AutoSize = true;
+            this.label32.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label32.Location = new System.Drawing.Point(101, 209);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(38, 13);
@@ -529,6 +539,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
+            this.label9.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label9.Location = new System.Drawing.Point(328, 324);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(52, 13);
@@ -538,6 +549,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
+            this.label10.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label10.Location = new System.Drawing.Point(205, 324);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(42, 13);
@@ -547,6 +559,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
+            this.label11.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label11.Location = new System.Drawing.Point(45, 324);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(35, 13);
@@ -556,6 +569,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
+            this.label12.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label12.Location = new System.Drawing.Point(459, 296);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(46, 13);
@@ -565,6 +579,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
+            this.label13.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label13.Location = new System.Drawing.Point(361, 296);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(37, 13);
@@ -574,6 +589,7 @@
             // label14
             // 
             this.label14.AutoSize = true;
+            this.label14.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label14.Location = new System.Drawing.Point(294, 296);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(34, 13);
@@ -583,6 +599,7 @@
             // label15
             // 
             this.label15.AutoSize = true;
+            this.label15.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label15.Location = new System.Drawing.Point(21, 296);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(27, 13);
@@ -592,17 +609,31 @@
             // label16
             // 
             this.label16.AutoSize = true;
+            this.label16.ForeColor = System.Drawing.SystemColors.WindowText;
             this.label16.Location = new System.Drawing.Point(101, 296);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(38, 13);
             this.label16.TabIndex = 131;
             this.label16.Text = "Nome:";
             // 
+            // lbltituloaluno
+            // 
+            this.lbltituloaluno.AutoSize = true;
+            this.lbltituloaluno.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.3F);
+            this.lbltituloaluno.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.lbltituloaluno.Location = new System.Drawing.Point(210, 38);
+            this.lbltituloaluno.Name = "lbltituloaluno";
+            this.lbltituloaluno.Size = new System.Drawing.Size(171, 26);
+            this.lbltituloaluno.TabIndex = 147;
+            this.lbltituloaluno.Text = "Consulta Alunos";
+            // 
             // Exibiraluno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(591, 400);
+            this.Controls.Add(this.lbltituloaluno);
             this.Controls.Add(this.linkLabel17);
             this.Controls.Add(this.linkLabel18);
             this.Controls.Add(this.linkLabel19);
@@ -652,10 +683,11 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.lblaluno);
             this.Controls.Add(this.txtpesquisaraluno);
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Name = "Exibiraluno";
             this.Text = "Exibiraluno";
+            this.TransparencyKey = System.Drawing.Color.FloralWhite;
             this.Load += new System.EventHandler(this.Exibiraluno_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -673,7 +705,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label lblaluno;
         private System.Windows.Forms.TextBox txtpesquisaraluno;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem voltaralu1;
@@ -717,5 +748,6 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label lbltituloaluno;
     }
 }
