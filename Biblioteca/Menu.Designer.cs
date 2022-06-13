@@ -30,9 +30,10 @@
         {
             this.components = new System.ComponentModel.Container();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.alunoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cadastrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.exibirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cadastraralToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exibiralToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.livrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastrarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.exibirToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -40,7 +41,6 @@
             this.cadastrarToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.exibirToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.aDMToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -60,29 +60,36 @@
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
+            // sairToolStripMenuItem
+            // 
+            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
+            this.sairToolStripMenuItem.Text = "Voltar";
+            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
+            // 
             // alunoToolStripMenuItem
             // 
             this.alunoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.cadastrarToolStripMenuItem,
-            this.exibirToolStripMenuItem});
+            this.cadastraralToolStripMenuItem,
+            this.exibiralToolStripMenuItem});
             this.alunoToolStripMenuItem.Name = "alunoToolStripMenuItem";
             this.alunoToolStripMenuItem.Size = new System.Drawing.Size(51, 20);
             this.alunoToolStripMenuItem.Text = "Aluno";
             this.alunoToolStripMenuItem.Click += new System.EventHandler(this.alunoToolStripMenuItem_Click);
             // 
-            // cadastrarToolStripMenuItem
+            // cadastraralToolStripMenuItem
             // 
-            this.cadastrarToolStripMenuItem.Name = "cadastrarToolStripMenuItem";
-            this.cadastrarToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.cadastrarToolStripMenuItem.Text = "Cadastrar";
-            this.cadastrarToolStripMenuItem.Click += new System.EventHandler(this.cadastrarToolStripMenuItem_Click);
+            this.cadastraralToolStripMenuItem.Name = "cadastraralToolStripMenuItem";
+            this.cadastraralToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.cadastraralToolStripMenuItem.Text = "Cadastrar";
+            this.cadastraralToolStripMenuItem.Click += new System.EventHandler(this.cadastrarToolStripMenuItem_Click);
             // 
-            // exibirToolStripMenuItem
+            // exibiralToolStripMenuItem
             // 
-            this.exibirToolStripMenuItem.Name = "exibirToolStripMenuItem";
-            this.exibirToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.exibirToolStripMenuItem.Text = "Exibir";
-            this.exibirToolStripMenuItem.Click += new System.EventHandler(this.exibirToolStripMenuItem_Click);
+            this.exibiralToolStripMenuItem.Name = "exibiralToolStripMenuItem";
+            this.exibiralToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.exibiralToolStripMenuItem.Text = "Exibir";
+            this.exibiralToolStripMenuItem.Click += new System.EventHandler(this.exibirToolStripMenuItem_Click);
             // 
             // livrosToolStripMenuItem
             // 
@@ -132,13 +139,6 @@
             this.aDMToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
             this.aDMToolStripMenuItem.Text = "ADM";
             // 
-            // sairToolStripMenuItem
-            // 
-            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
-            this.sairToolStripMenuItem.Text = "Voltar";
-            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
-            // 
             // imageList1
             // 
             this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
@@ -165,8 +165,8 @@
         #endregion
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem alunoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cadastrarToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem exibirToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cadastraralToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exibiralToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem livrosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cadastrarToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem exibirToolStripMenuItem1;
