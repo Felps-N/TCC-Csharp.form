@@ -47,6 +47,7 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.sairToolStripMenuItem,
             this.alunoToolStripMenuItem,
@@ -80,14 +81,14 @@
             // cadastraralToolStripMenuItem
             // 
             this.cadastraralToolStripMenuItem.Name = "cadastraralToolStripMenuItem";
-            this.cadastraralToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.cadastraralToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.cadastraralToolStripMenuItem.Text = "Cadastrar";
             this.cadastraralToolStripMenuItem.Click += new System.EventHandler(this.cadastrarToolStripMenuItem_Click);
             // 
             // exibiralToolStripMenuItem
             // 
             this.exibiralToolStripMenuItem.Name = "exibiralToolStripMenuItem";
-            this.exibiralToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.exibiralToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.exibiralToolStripMenuItem.Text = "Exibir";
             this.exibiralToolStripMenuItem.Click += new System.EventHandler(this.exibirToolStripMenuItem_Click);
             // 
@@ -149,6 +150,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(665, 492);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;

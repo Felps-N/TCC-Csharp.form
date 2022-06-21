@@ -28,5 +28,10 @@ namespace Biblioteca
         {
 
         }
+
+        private void txtpesquisaraluno_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

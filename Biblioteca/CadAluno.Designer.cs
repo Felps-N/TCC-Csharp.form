@@ -79,6 +79,7 @@
             this.btncadastraraluno.TabIndex = 77;
             this.btncadastraraluno.Text = "Cadastrar";
             this.btncadastraraluno.UseVisualStyleBackColor = false;
+            this.btncadastraraluno.Click += new System.EventHandler(this.btncadastraraluno_Click);
             // 
             // lbltituloaluno
             // 

@@ -10,21 +10,14 @@ using System.Windows.Forms;
 
 namespace Biblioteca
 {
-    public partial class CadAluno : Form
+    public partial class CadLivro : Form
     {
-        public CadAluno()
+        public CadLivro()
         {
-            InitializeComponent();
+            InitializeComponent();s
         }
 
-        private void voltarToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Menu menu = new Menu();
-            this.Dispose();
-            menu.ShowDialog();
-        }
-
-        private void btncadastraraluno_Click(object sender, EventArgs e)
+        private void BTNcadL_Click(object sender, EventArgs e)
         {
             Menu menu = new Menu();
             this.Dispose();
