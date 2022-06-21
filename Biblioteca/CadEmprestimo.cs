@@ -10,18 +10,16 @@ using System.Windows.Forms;
 
 namespace Biblioteca
 {
-    public partial class CadLivro : Form
+    public partial class CadEmprestimo : Form
     {
-        public CadLivro()
+        public CadEmprestimo()
         {
             InitializeComponent();
         }
 
-        private void BTNcadL_Click(object sender, EventArgs e)
+        private void LBLtituloL_Click(object sender, EventArgs e)
         {
-            Menu menu = new Menu();
-            this.Dispose();
-            menu.ShowDialog();
+
         }
 
         private void TXTdataL_TextChanged(object sender, EventArgs e)
@@ -69,7 +67,7 @@ namespace Biblioteca
 
         }
 
-        private void LBLtituloL_Click(object sender, EventArgs e)
+        private void BTNcadL_Click(object sender, EventArgs e)
         {
 
         }
@@ -77,6 +75,18 @@ namespace Biblioteca
         private void LBLcadL_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void LBLanoL_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BTNcadL_Click_1(object sender, EventArgs e)
+        {
+            Menu menu = new Menu();
+            this.Dispose();
+            menu.ShowDialog();
         }
     }
 }

@@ -53,5 +53,12 @@ namespace Biblioteca
             this.Dispose();
             ealu.ShowDialog();
         }
+
+        private void cadastrarToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            CadLivro cliv = new CadLivro();
+            this.Dispose();
+            cliv.ShowDialog();
+        }
     }
 }
