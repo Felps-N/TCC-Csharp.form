@@ -42,12 +42,18 @@
             this.exibirToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.aDMToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.btnExit = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.ExibirPnl = new System.Windows.Forms.Panel();
             this.menuStrip1.SuspendLayout();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
-            this.menuStrip1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.menuStrip1.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.sairToolStripMenuItem,
             this.alunoToolStripMenuItem,
@@ -56,13 +62,14 @@
             this.aDMToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(665, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(756, 24);
             this.menuStrip1.TabIndex = 5;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // sairToolStripMenuItem
             // 
+            this.sairToolStripMenuItem.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
             this.sairToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
             this.sairToolStripMenuItem.Text = "Voltar";
@@ -81,14 +88,14 @@
             // cadastraralToolStripMenuItem
             // 
             this.cadastraralToolStripMenuItem.Name = "cadastraralToolStripMenuItem";
-            this.cadastraralToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.cadastraralToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.cadastraralToolStripMenuItem.Text = "Cadastrar";
             this.cadastraralToolStripMenuItem.Click += new System.EventHandler(this.cadastrarToolStripMenuItem_Click);
             // 
             // exibiralToolStripMenuItem
             // 
             this.exibiralToolStripMenuItem.Name = "exibiralToolStripMenuItem";
-            this.exibiralToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.exibiralToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.exibiralToolStripMenuItem.Text = "Exibir";
             this.exibiralToolStripMenuItem.Click += new System.EventHandler(this.exibirToolStripMenuItem_Click);
             // 
@@ -104,15 +111,16 @@
             // cadastrarToolStripMenuItem1
             // 
             this.cadastrarToolStripMenuItem1.Name = "cadastrarToolStripMenuItem1";
-            this.cadastrarToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.cadastrarToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.cadastrarToolStripMenuItem1.Text = "Cadastrar";
             this.cadastrarToolStripMenuItem1.Click += new System.EventHandler(this.cadastrarToolStripMenuItem1_Click);
             // 
             // exibirToolStripMenuItem1
             // 
             this.exibirToolStripMenuItem1.Name = "exibirToolStripMenuItem1";
-            this.exibirToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.exibirToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.exibirToolStripMenuItem1.Text = "Exibir";
+            this.exibirToolStripMenuItem1.Click += new System.EventHandler(this.exibirToolStripMenuItem1_Click);
             // 
             // empretimosToolStripMenuItem
             // 
@@ -126,14 +134,16 @@
             // cadastrarToolStripMenuItem2
             // 
             this.cadastrarToolStripMenuItem2.Name = "cadastrarToolStripMenuItem2";
-            this.cadastrarToolStripMenuItem2.Size = new System.Drawing.Size(124, 22);
+            this.cadastrarToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
             this.cadastrarToolStripMenuItem2.Text = "Cadastrar";
+            this.cadastrarToolStripMenuItem2.Click += new System.EventHandler(this.cadastrarToolStripMenuItem2_Click);
             // 
             // exibirToolStripMenuItem2
             // 
             this.exibirToolStripMenuItem2.Name = "exibirToolStripMenuItem2";
-            this.exibirToolStripMenuItem2.Size = new System.Drawing.Size(124, 22);
+            this.exibirToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
             this.exibirToolStripMenuItem2.Text = "Exibir";
+            this.exibirToolStripMenuItem2.Click += new System.EventHandler(this.exibirToolStripMenuItem2_Click);
             // 
             // aDMToolStripMenuItem
             // 
@@ -147,12 +157,57 @@
             this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.panel1.Controls.Add(this.btnExit);
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Location = new System.Drawing.Point(0, 27);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(192, 457);
+            this.panel1.TabIndex = 6;
+            // 
+            // btnExit
+            // 
+            this.btnExit.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btnExit.FlatAppearance.BorderSize = 0;
+            this.btnExit.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.Highlight;
+            this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExit.Location = new System.Drawing.Point(40, 386);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(112, 30);
+            this.btnExit.TabIndex = 1;
+            this.btnExit.Text = "Sair";
+            this.btnExit.UseVisualStyleBackColor = false;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Biblioteca.Properties.Resources.path3733__1_;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 17);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(167, 91);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // ExibirPnl
+            // 
+            this.ExibirPnl.Location = new System.Drawing.Point(198, 27);
+            this.ExibirPnl.Name = "ExibirPnl";
+            this.ExibirPnl.Size = new System.Drawing.Size(563, 457);
+            this.ExibirPnl.TabIndex = 7;
+            this.ExibirPnl.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlExibir_Paint);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(665, 492);
+            this.ClientSize = new System.Drawing.Size(756, 477);
+            this.Controls.Add(this.ExibirPnl);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Menu";
@@ -160,6 +215,8 @@
             this.Load += new System.EventHandler(this.Menu_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -179,5 +236,9 @@
         private System.Windows.Forms.ToolStripMenuItem aDMToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
         private System.Windows.Forms.ImageList imageList1;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Panel ExibirPnl;
     }
 }

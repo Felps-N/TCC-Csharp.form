@@ -40,9 +40,6 @@
             this.TXTtiltuloL = new System.Windows.Forms.TextBox();
             this.LBLtituloL = new System.Windows.Forms.Label();
             this.LBLcadL = new System.Windows.Forms.Label();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.voltaralu2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // BTNcadL
@@ -156,30 +153,12 @@
             this.LBLcadL.Text = "Cadastro de Livros";
             this.LBLcadL.Click += new System.EventHandler(this.LBLcadL_Click);
             // 
-            // menuStrip1
-            // 
-            this.menuStrip1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.voltaralu2});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(448, 24);
-            this.menuStrip1.TabIndex = 25;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // voltaralu2
-            // 
-            this.voltaralu2.Name = "voltaralu2";
-            this.voltaralu2.Size = new System.Drawing.Size(49, 20);
-            this.voltaralu2.Text = "Voltar";
-            // 
             // CadLivro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(448, 387);
-            this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.BTNcadL);
             this.Controls.Add(this.TXTdataL);
             this.Controls.Add(this.LBLdataL);
@@ -192,10 +171,9 @@
             this.Controls.Add(this.TXTtiltuloL);
             this.Controls.Add(this.LBLtituloL);
             this.Controls.Add(this.LBLcadL);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "CadLivro";
             this.Text = "CadLivro";
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -215,7 +193,5 @@
         private System.Windows.Forms.TextBox TXTtiltuloL;
         private System.Windows.Forms.Label LBLtituloL;
         private System.Windows.Forms.Label LBLcadL;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem voltaralu2;
     }
 }

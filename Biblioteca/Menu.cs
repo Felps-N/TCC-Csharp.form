@@ -35,8 +35,9 @@ namespace Biblioteca
         private void cadastrarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             CadAluno calu = new CadAluno();
-            this.Dispose();
-            calu.ShowDialog();
+            /*this.Dispose();
+            calu.ShowDialog();*/
+            OpenExibirform(calu);
         }
 
         private void sairToolStripMenuItem_Click(object sender, EventArgs e)
@@ -49,16 +50,61 @@ namespace Biblioteca
 
         private void exibirToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Exibiraluno ealu = new Exibiraluno();
+            /*Exibiraluno ealu = new Exibiraluno();
             this.Dispose();
-            ealu.ShowDialog();
+            ealu.ShowDialog();*/
+            OpenExibirform(new Exibiraluno());
         }
 
         private void cadastrarToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             CadLivro cliv = new CadLivro();
-            this.Dispose();
-            cliv.ShowDialog();
+            /*this.Dispose();
+            cliv.ShowDialog();*/
+            OpenExibirform(cliv);
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+
+        private void pnlExibir_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void OpenExibirform(object exibirform)
+        {
+            if (this.ExibirPnl.Controls.Count > 0)
+                this.ExibirPnl.Controls.RemoveAt(0);
+            Form ef = exibirform as Form;
+            ef.TopLevel = false;
+            ef.Dock = DockStyle.Fill;
+            this.ExibirPnl.Controls.Add(ef);
+            this.ExibirPnl.Tag = ef;
+            ef.Show();
+        }
+
+        private void exibirToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            OpenExibirform(new ExibirLivro());
+        }
+
+        private void cadastrarToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            OpenExibirform(new CadEmprestimo());
+        }
+
+        private void exibirToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            OpenExibirform(new ExibirEmprestimo());
         }
     }
 }

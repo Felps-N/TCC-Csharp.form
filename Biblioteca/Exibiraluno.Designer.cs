@@ -29,11 +29,8 @@
         private void InitializeComponent()
         {
             this.txtpesquisaraluno = new System.Windows.Forms.TextBox();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.voltaralu1 = new System.Windows.Forms.ToolStripMenuItem();
             this.lbltituloaluno2 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -47,24 +44,6 @@
             this.txtpesquisaraluno.TabIndex = 80;
             this.txtpesquisaraluno.Text = "Digite o Nome do Aluno";
             this.txtpesquisaraluno.TextChanged += new System.EventHandler(this.txtpesquisaraluno_TextChanged);
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.voltaralu1});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(532, 24);
-            this.menuStrip1.TabIndex = 106;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // voltaralu1
-            // 
-            this.voltaralu1.Name = "voltaralu1";
-            this.voltaralu1.Size = new System.Drawing.Size(49, 20);
-            this.voltaralu1.Text = "Voltar";
-            this.voltaralu1.Click += new System.EventHandler(this.voltaralu1_Click);
             // 
             // lbltituloaluno2
             // 
@@ -94,15 +73,13 @@
             this.ClientSize = new System.Drawing.Size(532, 400);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.lbltituloaluno2);
-            this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.txtpesquisaraluno);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Exibiraluno";
             this.Text = "Exibiraluno";
             this.TransparencyKey = System.Drawing.Color.FloralWhite;
             this.Load += new System.EventHandler(this.Exibiraluno_Load);
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -111,8 +88,6 @@
 
         #endregion
         private System.Windows.Forms.TextBox txtpesquisaraluno;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem voltaralu1;
         private System.Windows.Forms.Label lbltituloaluno2;
         private System.Windows.Forms.DataGridView dataGridView1;
     }

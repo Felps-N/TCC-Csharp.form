@@ -28,8 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.voltaralu2 = new System.Windows.Forms.ToolStripMenuItem();
             this.btncadastraraluno = new System.Windows.Forms.Button();
             this.lbltituloaluno = new System.Windows.Forms.Label();
             this.txtemail = new System.Windows.Forms.TextBox();
@@ -48,26 +46,7 @@
             this.lblRM = new System.Windows.Forms.Label();
             this.txtname = new System.Windows.Forms.TextBox();
             this.lblname = new System.Windows.Forms.Label();
-            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.voltaralu2});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(549, 24);
-            this.menuStrip1.TabIndex = 24;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // voltaralu2
-            // 
-            this.voltaralu2.Name = "voltaralu2";
-            this.voltaralu2.Size = new System.Drawing.Size(49, 20);
-            this.voltaralu2.Text = "Voltar";
-            this.voltaralu2.Click += new System.EventHandler(this.voltarToolStripMenuItem_Click);
             // 
             // btncadastraraluno
             // 
@@ -260,20 +239,15 @@
             this.Controls.Add(this.lblRM);
             this.Controls.Add(this.txtname);
             this.Controls.Add(this.lblname);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "CadAluno";
             this.Text = "CadAluno";
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem voltaralu2;
         private System.Windows.Forms.Button btncadastraraluno;
         private System.Windows.Forms.Label lbltituloaluno;
         private System.Windows.Forms.TextBox txtemail;
