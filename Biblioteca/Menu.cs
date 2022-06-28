@@ -106,5 +106,10 @@ namespace Biblioteca
         {
             OpenExibirform(new ExibirEmprestimo());
         }
+
+        private void aDMToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenExibirform(new ADM());
+        }
     }
 }

@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ADM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADM.Designer.cs">
+      <DependentUpon>ADM.cs</DependentUpon>
+    </Compile>
     <Compile Include="CadAluno.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +103,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ADM.resx">
+      <DependentUpon>ADM.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CadAluno.resx">
       <DependentUpon>CadAluno.cs</DependentUpon>
     </EmbeddedResource>

@@ -88,14 +88,14 @@
             // cadastraralToolStripMenuItem
             // 
             this.cadastraralToolStripMenuItem.Name = "cadastraralToolStripMenuItem";
-            this.cadastraralToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cadastraralToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.cadastraralToolStripMenuItem.Text = "Cadastrar";
             this.cadastraralToolStripMenuItem.Click += new System.EventHandler(this.cadastrarToolStripMenuItem_Click);
             // 
             // exibiralToolStripMenuItem
             // 
             this.exibiralToolStripMenuItem.Name = "exibiralToolStripMenuItem";
-            this.exibiralToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exibiralToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.exibiralToolStripMenuItem.Text = "Exibir";
             this.exibiralToolStripMenuItem.Click += new System.EventHandler(this.exibirToolStripMenuItem_Click);
             // 
@@ -111,14 +111,14 @@
             // cadastrarToolStripMenuItem1
             // 
             this.cadastrarToolStripMenuItem1.Name = "cadastrarToolStripMenuItem1";
-            this.cadastrarToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.cadastrarToolStripMenuItem1.Size = new System.Drawing.Size(124, 22);
             this.cadastrarToolStripMenuItem1.Text = "Cadastrar";
             this.cadastrarToolStripMenuItem1.Click += new System.EventHandler(this.cadastrarToolStripMenuItem1_Click);
             // 
             // exibirToolStripMenuItem1
             // 
             this.exibirToolStripMenuItem1.Name = "exibirToolStripMenuItem1";
-            this.exibirToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.exibirToolStripMenuItem1.Size = new System.Drawing.Size(124, 22);
             this.exibirToolStripMenuItem1.Text = "Exibir";
             this.exibirToolStripMenuItem1.Click += new System.EventHandler(this.exibirToolStripMenuItem1_Click);
             // 
@@ -134,14 +134,14 @@
             // cadastrarToolStripMenuItem2
             // 
             this.cadastrarToolStripMenuItem2.Name = "cadastrarToolStripMenuItem2";
-            this.cadastrarToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.cadastrarToolStripMenuItem2.Size = new System.Drawing.Size(124, 22);
             this.cadastrarToolStripMenuItem2.Text = "Cadastrar";
             this.cadastrarToolStripMenuItem2.Click += new System.EventHandler(this.cadastrarToolStripMenuItem2_Click);
             // 
             // exibirToolStripMenuItem2
             // 
             this.exibirToolStripMenuItem2.Name = "exibirToolStripMenuItem2";
-            this.exibirToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.exibirToolStripMenuItem2.Size = new System.Drawing.Size(124, 22);
             this.exibirToolStripMenuItem2.Text = "Exibir";
             this.exibirToolStripMenuItem2.Click += new System.EventHandler(this.exibirToolStripMenuItem2_Click);
             // 
@@ -150,6 +150,7 @@
             this.aDMToolStripMenuItem.Name = "aDMToolStripMenuItem";
             this.aDMToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
             this.aDMToolStripMenuItem.Text = "ADM";
+            this.aDMToolStripMenuItem.Click += new System.EventHandler(this.aDMToolStripMenuItem_Click);
             // 
             // imageList1
             // 
